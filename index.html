@@ -11,11 +11,11 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="d-flex flex-column">
+    <header>
         <nav class="header__nav">
-            <div class="container d-flex justify-content-between align-items-center">
+            <div class="container d-flex justify-content-between align-items-center flex-column flex-md-row">
                 <a href="../../Lesson 17/index.html"><img src="Pictures/logo.png" alt="error"></a>
-                <ul class="header__menu d-flex col-3 justify-content-between">
+                <ul class="header__menu d-flex col-8 col-md-4 justify-content-between">
                     <li><a href="../Home/index.html" class="header_link">home</a></li>
                     <li><a href="../About/index.html" class="header_link">about</a></li>
                     <li><a href="index.html" class="header_link">contact</a></li>
@@ -28,7 +28,7 @@
         <div class="container-fluid">
             <div class="container">
                 <div class="row d-flex justify-content-between">
-                    <div class="left col-4">
+                    <div class="left col-12 col-md-4">
                         <h3>contact info:</h3>
                         <p class="text">To give give beginning divide, cattle. Give moving 
                             won't, there the abundantly she'd she'd brought air 
@@ -40,15 +40,15 @@
                         <p class="address" href="+44987065909"><span>fax: </span>+44 987 065 909</p>
                     </div>
 
-                    <div class="right col-7">
+                    <div class="right col-12 col-md-7">
                         <form action="">
-                            <fieldset class="d-flex">
+                            <fieldset>
                                 <div class="user__name d-flex justify-content-between">
-                                    <input class="user-name" type="text" placeholder="Your Name" name="user-name">
-                                    <input class="user-email" type="email" placeholder="Your E-mail" name="user-email">
+                                    <input class="user-name col-5" type="text" placeholder="Your Name" name="user-name">
+                                    <input class="user-email col-6" type="email" placeholder="Your E-mail" name="user-email">
                                 </div>
-                                <input class="user-title" type="text" placeholder="Your Title" name="user-title">
-                                <textarea placeholder="Your Comment" id="" cols="30" rows="10"></textarea>
+                                <input class="user-title col-12" type="text" placeholder="Your Title" name="user-title">
+                                <textarea class="col-12" placeholder="Your Comment" id="" cols="30" rows="10"></textarea>
                             </fieldset>
                             <button type="submit" class="button">send message</button>
                         </form>
@@ -65,17 +65,18 @@
     </main>
 
     <footer>
-        <div class="container d-flex justify-content-between align-items-center">
-            <div class="left">
+        <div class="container d-flex align-items-center justify-content-center">
+           <div class="row d-flex justify-content-between align-items-center">
+            <div class="left col-12 col-md-6 col-lg-3">
                 <h4>Macintosh Design, Inc.</h4>
                 <p>© 2017 Macintosh. All rights reserved.</p>
                 <p>Designed by Jefry.</p>
             </div>
-            <div class="middle">
+            <div class="middle col-12 col-md-6 col-lg-3">
                 <a href="">hello@pirolltheme.com</a> <br>
                 <a href="+(44) 987 - 065 - 908">+44 987 065 908</a>
             </div>
-            <div class="right d-flex justify-content-between col-3">
+            <div class="right col-12 col-md-6 col-lg-3 d-flex justify-content-between">
                 <div>
                     <ul>
                         <li><a href="">Project</a></li>
@@ -101,6 +102,7 @@
                     </ul>
                 </div>
             </div>
+           </div>
         </div>
     </footer>
 
